@@ -2,7 +2,7 @@
   "name": "busybar-git-bisect-map",
   "private": true,
   "version": "0.1.0",
-  "description": "Git Bisect Map",
+  "description": "See the remaining revision range and good/bad bounds of a local Git bisect without changing it.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {

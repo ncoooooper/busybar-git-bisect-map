@@ -1,0 +1,6 @@
+{
+  "category": "dev-monitoring",
+  "short_description": "See the remaining revision range and good/bad bounds of a local Git bisect without changing it.",
+  "description": "See the remaining revision range and good/bad bounds of a local Git bisect without changing it. Set repo to a local working repository where a default-terms Git bisect is in progress. The companion uses only for-each-ref, rev-list and rev-parse. It counts commits reachable from the bad revision excluding all known good revisions. Unusual merge histories and skipped revisions can increase the actual number of steps.",
+  "changelog": "First public version."
+}

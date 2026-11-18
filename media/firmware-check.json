@@ -1,0 +1,48 @@
+{
+  "id": "BB-042",
+  "source": "A new local Git repository with five real commits and an active bisect.",
+  "scenario": "The reader found four candidate revisions and estimated two checks.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 13,
+  "exit": "App io.ncoooooper.gitbisectmap exited: finished; heap peak 81.6 of 128 KiB",
+  "sha256": "66276a0d00b2854d6a4f81a0edbf0a829a45f6680262469820b7673b58ac68c0",
+  "pages": [
+    {
+      "caption": "CANDIDATES",
+      "value": "4",
+      "lines": [
+        "About 2 more checks",
+        "0 skipped refs"
+      ]
+    },
+    {
+      "caption": "BAD BOUND",
+      "value": "95ce86a",
+      "lines": [
+        "1 good bounds",
+        "HEAD ec90acf"
+      ]
+    },
+    {
+      "caption": "GOOD BOUND",
+      "value": "fdb6496",
+      "lines": [
+        "First recorded good bound",
+        "Includes merges in range"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "CANDIDATES",
+    "value": "4",
+    "lines": [
+      "About 2 more checks",
+      "0 skipped refs"
+    ]
+  }
+}

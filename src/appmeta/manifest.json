@@ -4,6 +4,6 @@
   "name": "Git Bisect Map",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Git Bisect Map",
+  "description": "See the remaining revision range and good/bad bounds of a local Git bisect without changing it.",
   "author": "ncoooooper"
 }
