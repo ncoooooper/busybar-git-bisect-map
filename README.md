@@ -22,7 +22,7 @@ During a long test run, the bar can keep the remaining search range visible whil
 
 ## Example from the emulator
 
-The test repository contained five commits and four candidate revisions. A balanced search suggests roughly two more checks for four candidates. Merges or skipped commits can change how many tests are actually needed. A new local Git repository with five real commits and an active bisect.
+The test repository contained five commits and four candidate revisions. A balanced search suggests roughly two more checks for four candidates. Merges or skipped commits can change how many tests are actually needed. The companion read an active bisect in a local five-commit test repository.
 
 ## Set up the source
 
