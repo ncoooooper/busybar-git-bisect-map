@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.gitbisectmap exited: finished; heap peak 81.6 of 128 KiB",
-  "sha256": "cfc9c2bc559bed166bf18cbcfb22bd19c241c4b0631077d6208b410d05cacc04",
+  "sha256": "fd6bb857039c3bde8e387036a9f2033ea577d2a26964cfd186ee7ca50144cf5b",
   "pages": [
     {
       "caption": "CANDIDATES",

@@ -4,6 +4,20 @@ See the remaining revision range and good/bad bounds of a local Git bisect witho
 
 During a long test run, the bar can keep the remaining search range visible while your terminal is doing something else. The companion reads the bisect already running in your worktree.
 
+## Screen transitions
+
+Move from the remaining search range to the result of the next test.
+
+![Git Bisect Map front display. Move from the remaining search range to the result of the next test.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Git Bisect Map rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Read the remaining search range
 
 1. Start a normal Git bisect in the repository you are investigating and identify good and bad bounds in your usual terminal.
@@ -42,6 +56,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

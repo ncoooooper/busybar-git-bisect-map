@@ -1,0 +1,58 @@
+{
+  "app": "busybar-git-bisect-map",
+  "sha256": "fd6bb857039c3bde8e387036a9f2033ea577d2a26964cfd186ee7ca50144cf5b",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.gitbisectmap",
+    "sha256": "fd6bb857039c3bde8e387036a9f2033ea577d2a26964cfd186ee7ca50144cf5b",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 91.8,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "inspect-bad-bound",
+        "return-to-candidates"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "up"
+        ],
+        [
+          "down",
+          "ok"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        8,
+        8,
+        28
+      ],
+      "rear_frames": 14,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}
