@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.gitbisectmap exited: finished; heap peak 81.6 of 128 KiB",
-  "sha256": "66276a0d00b2854d6a4f81a0edbf0a829a45f6680262469820b7673b58ac68c0",
+  "sha256": "133e7cd9b6af67fd83c5b90f01886ef36d80f48eec4415c4f3ca6a6a2a6735bb",
   "pages": [
     {
       "caption": "CANDIDATES",
@@ -22,15 +22,15 @@
     },
     {
       "caption": "BAD BOUND",
-      "value": "95ce86a",
+      "value": "fe526aa",
       "lines": [
         "1 good bounds",
-        "HEAD ec90acf"
+        "HEAD 4e548f7"
       ]
     },
     {
       "caption": "GOOD BOUND",
-      "value": "fdb6496",
+      "value": "bdab1c2",
       "lines": [
         "First recorded good bound",
         "Includes merges in range"
